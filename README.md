@@ -4,7 +4,7 @@ funnel udf for presto
 # usage
 put files into presto and execute follow command     
 ```
-mvn clean package -DskipTests -rf -rf :presto-kdc-functions
+mvn clean package -DskipTests -rf :presto-kdc-functions
 ```
 
 # functions
