@@ -11,11 +11,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.prestosql.kdc.functions.aggregation.state;
+package io.trino.plugin.kdc.aggregation.state;
 
-import io.prestosql.array.ObjectBigArray;
-import io.prestosql.spi.function.AccumulatorStateFactory;
-import io.prestosql.spi.function.GroupedAccumulatorState;
+import io.trino.array.ObjectBigArray;
+import io.trino.spi.function.AccumulatorStateFactory;
+import io.trino.spi.function.GroupedAccumulatorState;
 import org.openjdk.jol.info.ClassLayout;
 
 import java.util.ArrayList;

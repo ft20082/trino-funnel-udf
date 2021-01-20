@@ -11,13 +11,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.prestosql.kdc.functions;
+package io.trino.plugin.kdc;
 
 import com.google.common.collect.ImmutableSet;
-import io.prestosql.kdc.functions.aggregation.ArraySumAggregation;
-import io.prestosql.kdc.functions.aggregation.FunnelAggregation;
-import io.prestosql.kdc.functions.scalar.HiveNvl;
-import io.prestosql.spi.Plugin;
+import io.trino.plugin.kdc.aggregation.ArraySumAggregation;
+import io.trino.plugin.kdc.aggregation.FunnelAggregation;
+import io.trino.plugin.kdc.scalar.HiveNvl;
+import io.trino.spi.Plugin;
 
 import java.util.Set;
 

@@ -11,15 +11,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.prestosql.kdc.functions.util;
+package io.trino.plugin.kdc.util;
 
-import io.prestosql.spi.block.Block;
-import io.prestosql.spi.type.BigintType;
+import io.trino.spi.block.Block;
+import io.trino.spi.type.BigintType;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.prestosql.spi.type.TypeUtils.readNativeValue;
+import static io.trino.spi.type.TypeUtils.readNativeValue;
 
 /**
  * @author jake.zhang zhangxj@kingnet.com

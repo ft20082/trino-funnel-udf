@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.prestosql.kdc.functions.util;
+package io.trino.plugin.kdc.util;
 
 import io.airlift.log.Logger;
 

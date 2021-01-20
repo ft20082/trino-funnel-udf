@@ -1,10 +1,10 @@
-# presto-funnel-udf
-funnel udf for presto
+# trino-funnel-udf
+funnel udf for trino
 
 # usage
-put files into presto and execute follow command     
+put files into trino and execute follow command     
 ```
-mvn clean package -DskipTests -rf :presto-kdc-functions
+mvn clean package -DskipTests -rf :trino-kdc-functions
 ```
 
 # functions
